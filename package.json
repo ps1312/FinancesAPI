@@ -1,0 +1,10 @@
+{
+  "name": "finances-api",
+  "version": "1.0.0",
+  "description": "Open source API created for practicing",
+  "main": "index.js",
+  "repository": "https://github.com/ps1312/FinancesAPI",
+  "author": "Paulo Sergio",
+  "license": "MIT",
+  "private": false
+}
