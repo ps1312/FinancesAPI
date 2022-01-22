@@ -3,8 +3,13 @@ import express from "express";
 const app = express();
 const port = 3000;
 
+type HelloWorldResponse = {
+  message: string;
+};
+
 app.get("/", (_req, res) => {
-  res.json({ message: "Hello World!" });
+  const response: HelloWorldResponse = { message: "Hello World!" };
+  res.json(response);
 });
 
 app.listen(port, () => {
